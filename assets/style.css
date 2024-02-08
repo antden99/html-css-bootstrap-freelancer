@@ -42,3 +42,7 @@
     height: 100vh;
     
 }
+
+.section_copyright{
+    background-color: var(--blue-ocean);
+}
