@@ -1,3 +1,9 @@
+*{
+    border: 1px dashed;
+}
+
+
+
 :root{
     --blue-ocean:#2c3e50;
     --blue-light:#3a546d;
@@ -5,3 +11,34 @@
     --primary:#1abc9c;
 }
 
+#site_header{
+    background-color: var(--blue-ocean);
+    
+    
+}
+
+.section_jumbo{
+    background-color: var(--primary);
+}
+
+.section_portfolio{
+    background-color: var(--lighter);
+}
+
+.section_about{
+    background-color: var(--primary);
+}
+
+.section_contact{
+    background-color: var(--lighter);
+}
+
+#site_footer{
+    background-color: var(--blue-light);
+    
+}
+
+.wrapper{
+    height: 100vh;
+    
+}
