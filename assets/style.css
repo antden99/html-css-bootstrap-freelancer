@@ -1,48 +1,52 @@
-*{
+* {
     border: 1px dashed;
 }
 
 
 
-:root{
-    --blue-ocean:#2c3e50;
-    --blue-light:#3a546d;
-    --lighter:#ffffff;
-    --primary:#1abc9c;
+:root {
+    --blue-ocean: #2c3e50;
+    --blue-light: #3a546d;
+    --lighter: #ffffff;
+    --primary: #1abc9c;
 }
 
-#site_header{
+#site_header {
     background-color: var(--blue-ocean);
-    
-    
+
+
 }
 
-.section_jumbo{
+.section_jumbo {
     background-color: var(--primary);
 }
 
-.section_portfolio{
+.section_portfolio {
     background-color: var(--lighter);
 }
 
-.section_about{
+.section_about {
     background-color: var(--primary);
 }
 
-.section_contact{
+.section_contact {
     background-color: var(--lighter);
 }
 
-#site_footer{
+footer {
     background-color: var(--blue-light);
-    
+
 }
 
-.wrapper{
+.wrapper {
     height: 100vh;
-    
+
 }
 
-.section_copyright{
+.section_copyright {
     background-color: var(--blue-ocean);
+}
+
+.jumbo {
+    height: 200px;
 }
