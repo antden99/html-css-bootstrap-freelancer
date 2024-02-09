@@ -43,4 +43,22 @@ footer {
     background-color: var(--blue-ocean);
 }
 
+.color{
+    background-color: var(--primary);
+    border: none;
+    transition: 500s;
+}
 
+.wh{
+    filter:invert();
+}
+
+.my_hr{
+    width: 80px;
+    border-top: 3px solid white;  
+}
+
+.my_hr2{
+    width: 80px;
+    border-top: 3px solid rgb(0, 0, 0);  
+}
