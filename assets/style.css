@@ -20,8 +20,9 @@
     background-color: var(--lighter);
 }
 
-.section_about {
+.section_about{
     background-color: var(--primary);
+    border: none;
 }
 
 .section_contact {
